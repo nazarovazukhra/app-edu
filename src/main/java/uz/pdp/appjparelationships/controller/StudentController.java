@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import uz.pdp.appjparelationships.entity.Address;
 import uz.pdp.appjparelationships.entity.Group;
 import uz.pdp.appjparelationships.entity.Student;
-import uz.pdp.appjparelationships.entity.Subject;
 import uz.pdp.appjparelationships.payload.StudentDTO;
 import uz.pdp.appjparelationships.repository.AddressRepository;
 import uz.pdp.appjparelationships.repository.GroupRepository;
