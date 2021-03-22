@@ -11,8 +11,10 @@ public interface GroupRepository extends JpaRepository<Group, Integer> {
 
     List<Group> findAllByFaculty_UniversityId(Integer faculty_university_id);
 
+    List<Group>findAllByFaculty_Id(Integer faculty_id);
 
     @Query("select gr from groups gr where gr.faculty.university.id=:universityId")
+
     List<Group> getGroupsByUniversityId(Integer universityId);
 
     @Query(value = "select *\n" +
